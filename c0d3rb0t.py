@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 import sympy as sympify
+import requests
 
 from discord.ext.commands import Bot
 from datetime import datetime
@@ -28,14 +29,13 @@ def create_plot(expression):
 
     return fileName
 
-def str_to_int(s):
-    ctr = i = 0
-    for c in reversed(s):
-        i += (ord(c) - 48) * (10 ** ctr)
-        ctr += 1
-    return i
+def load_keys():
+    return tuple(open('token.txt', 'r'))
 
 client = discord.Client()
+
+token = load_keys()[0]
+api = load_keys()[1]
 
 @client.event
 async def on_ready():
@@ -45,6 +45,9 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    if message.content.startswith('!help'):
+        await client.send_message(message.channel, "!graph (expression) - To graph an expression, use np. for special functions and constansts. \n" + "\n" + "!eval (expression) - To evaluate an expression, use np. for special functions and constansts.")
+
     if message.content.startswith('!graph'):
         expression = message.content[7:len(message.content)]
         fileName = create_plot(expression)
@@ -57,4 +60,15 @@ async def on_message(message):
 
         await client.send_message(message.channel, eval(expression))
 
-client.run('MjczODc1NDcwMDM3MTU1ODQx.DBoTzQ.q5XaH1YAeSVnREqitLK2Qsqneoo')
+    if message.content.startswith("!wolfgram"):
+        argument = message.content[9:]
+        question = "+".join(argument.split())
+
+        requestUrl = "http://api.wolframalpha.com/v1/simple?appid=" + api + "&i=" + question + "%3F"
+
+        r = requests.get(requestUrl)
+        r.status_code
+
+        print(requestUrl)
+
+client.run(token)
