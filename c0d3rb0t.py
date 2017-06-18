@@ -42,7 +42,7 @@ api_key = load_keys()[1].replace("\n", "")
 
 discord = discord.Client()
 #TODO Load key from a file.
-wolframalpha = wolframalpha.Client('23643R-YHA7P9UH8R')
+wolframalpha = wolframalpha.Client('null')
 
 @discord.event
 async def on_ready():
