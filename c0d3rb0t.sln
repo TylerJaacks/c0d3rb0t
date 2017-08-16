@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c0d3rb0t_csharp", "c0d3rb0t_csharp\c0d3rb0t_csharp.csproj", "{4658C7B8-02F7-4551-8366-BAA5D2703D44}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "c0d3rb0t_discordbot", "c0d3rbb0t_python\c0d3rb0t_discordbot.pyproj", "{2ADBBDC3-00A3-40C9-A510-B4ED9C9B2B74}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "c0d3rb0t_python", "c0d3rbb0t_python\c0d3rb0t_python.pyproj", "{2ADBBDC3-00A3-40C9-A510-B4ED9C9B2B74}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c0db3rb0t_redditbot", "c0db3rb0t_redditbot\c0db3rb0t_redditbot.csproj", "{483BE40F-F0AA-4F8D-AAD3-52F047EAC961}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4658C7B8-02F7-4551-8366-BAA5D2703D44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4658C7B8-02F7-4551-8366-BAA5D2703D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4658C7B8-02F7-4551-8366-BAA5D2703D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4658C7B8-02F7-4551-8366-BAA5D2703D44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2ADBBDC3-00A3-40C9-A510-B4ED9C9B2B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2ADBBDC3-00A3-40C9-A510-B4ED9C9B2B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483BE40F-F0AA-4F8D-AAD3-52F047EAC961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483BE40F-F0AA-4F8D-AAD3-52F047EAC961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483BE40F-F0AA-4F8D-AAD3-52F047EAC961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483BE40F-F0AA-4F8D-AAD3-52F047EAC961}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA6A0FEA-548E-4EE8-8CF7-7ACEF3C1404B}
 	EndGlobalSection
 EndGlobal
