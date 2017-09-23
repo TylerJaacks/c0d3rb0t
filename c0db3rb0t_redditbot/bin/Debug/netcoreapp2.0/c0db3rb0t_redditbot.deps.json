@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "52a2baefe0e46a6a945b06a67ec75030d15e02df"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "c0db3rb0t_redditbot/1.0.0": {
+        "dependencies": {
+          "RedditSharp": "1.1.13"
+        },
+        "runtime": {
+          "c0db3rb0t_redditbot.dll": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RedditSharp/1.1.13": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "runtime": {
+          "lib/net461/RedditSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "c0db3rb0t_redditbot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/8.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "path": "newtonsoft.json/8.0.3",
+      "hashPath": "newtonsoft.json.8.0.3.nupkg.sha512"
+    },
+    "RedditSharp/1.1.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iICj2Yf+Dgkz99v4UuzZO7vZ4jliJZ6aCK+c2BSSyDtjBk6346Q/qMi+sgeGBHkjJkJU5vz1sc6HZHsgDNriRQ==",
+      "path": "redditsharp/1.1.13",
+      "hashPath": "redditsharp.1.1.13.nupkg.sha512"
+    }
+  }
+}

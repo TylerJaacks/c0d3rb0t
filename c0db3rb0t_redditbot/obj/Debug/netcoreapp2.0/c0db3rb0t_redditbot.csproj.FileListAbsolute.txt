@@ -1,0 +1,11 @@
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\bin\Debug\netcoreapp2.0\c0db3rb0t_redditbot.deps.json
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\bin\Debug\netcoreapp2.0\c0db3rb0t_redditbot.runtimeconfig.json
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\bin\Debug\netcoreapp2.0\c0db3rb0t_redditbot.runtimeconfig.dev.json
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\bin\Debug\netcoreapp2.0\c0db3rb0t_redditbot.dll
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\obj\Debug\netcoreapp2.0\c0db3rb0t_redditbot.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\obj\Debug\netcoreapp2.0\c0db3rb0t_redditbot.csproj.CoreCompileInputs.cache
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\obj\Debug\netcoreapp2.0\c0db3rb0t_redditbot.AssemblyInfoInputs.cache
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\obj\Debug\netcoreapp2.0\c0db3rb0t_redditbot.AssemblyInfo.cs
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\bin\Debug\netcoreapp2.0\c0db3rb0t_redditbot.pdb
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\obj\Debug\netcoreapp2.0\c0db3rb0t_redditbot.dll
+D:\Documents\Visual Studio 2017\Projects\c0d3rb0t\c0db3rb0t_redditbot\obj\Debug\netcoreapp2.0\c0db3rb0t_redditbot.pdb
